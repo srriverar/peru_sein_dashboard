@@ -1,0 +1,20 @@
+{
+    "name": "Classical Map",
+    "description": "Antique atlas styling with vellum paper, engraved ink, muted cartographic greens and blues, and warm copper high-voltage accents.",
+    "bg": "#F3E7CF",
+    "text": "#2F2418",
+    "subtext": "#7A664B",
+    "boundary": "#C8B28A",
+    "line_unknown": "#B9A47E",
+    "line_low": "#6E7E58",
+    "line_mid": "#3F6F75",
+    "line_high": "#A96132",
+    "line_extra": "#5A291D",
+    "fade": "#F3E7CF",
+    "substation_fill": "#E7D5B1",
+    "substation_outline": "#6A5235",
+    "substation_marker": "#3B2A1A",
+    "plant_fill": "#D9BE8F",
+    "plant_outline": "#8E4E2E",
+    "plant_marker": "#8E4E2E"
+}

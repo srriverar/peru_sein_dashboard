@@ -1,0 +1,14 @@
+indicador,valor,unidad,anio,fuente
+Energía producida SEIN,61244.11,GWh,2025,OSINERGMIN (compendio proyectos CGENC/EPO)
+Máxima demanda SEIN,7941.78,MW,2025,OSINERGMIN (compendio proyectos CGENC/EPO)
+Capacidad instalada SEIN,14492,MW,2026-jul,OSINERGMIN vía Energía Estratégica
+Capacidad estimada 2030 (proyectos con EPO),25400,MW,2030,COES/OSINERGMIN (escenario condicionado)
+Capacidad renovable 2030 (escenario OSINERGMIN),24500,MW,2030,OSINERGMIN (nov-2025)
+Cartera solar en revisión Zona Sur,11908,MW,2025,COES (Expo Solar Perú 2025)
+Cartera eólica en revisión Zona Norte,5605,MW,2025,COES (Expo Solar Perú 2025)
+Línea 500 kV Mantaro-Marcona-Socabaya-Montalvo,918,km,2021,ISA / Consorcio Transmantaro
+Línea 500 kV Ocoña-Montalvo,357,km,2017,OSINERGMIN fichas técnicas
+Línea 500 kV Poroma-Marcona,272,km,2017,OSINERGMIN fichas técnicas
+Línea 500 kV Montalvo-Moquegua,255,km,2017,OSINERGMIN fichas técnicas
+Enlace 500 kV Miguel Grau-Pariñas (proyecto),116,km,2024,MINEM informe 0133-2024
+Enlace 500 kV Chilca-Bicentenario (proyecto),176,km,2024,MINEM informe 0133-2024

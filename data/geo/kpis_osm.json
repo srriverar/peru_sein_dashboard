@@ -1,0 +1,171 @@
+{
+  "generado": "2026-10-08T14:09:25+00:00",
+  "fuente": "OpenStreetMap vía Overpass API — licencia ODbL",
+  "consulta": "power=line[voltage] / power=substation / power=plant en area ISO3166-1=PE",
+  "tolerancia_simplificacion_deg": 0.0003,
+  "lineas": 551,
+  "km_totales": 16287.8,
+  "km_circuito": 17972.5,
+  "vertices": 39168,
+  "subestaciones": 7241,
+  "centrales": 208,
+  "mw_osm": 11988.9,
+  "operadores": 16,
+  "por_tier": {
+    "110/115 kV": {
+      "color": "#FFD100",
+      "n": 471,
+      "km": 12589.6,
+      "km_circuito": 14219.4,
+      "vertices": 30429
+    },
+    "500 kV": {
+      "color": "#D62728",
+      "n": 22,
+      "km": 2938.0,
+      "km_circuito": 2939.0,
+      "vertices": 5820
+    },
+    "57.5/66 kV": {
+      "color": "#2CA02C",
+      "n": 45,
+      "km": 617.7,
+      "km_circuito": 620.6,
+      "vertices": 2527
+    },
+    "220/230 kV": {
+      "color": "#FF7F0E",
+      "n": 4,
+      "km": 53.1,
+      "km_circuito": 104.2,
+      "vertices": 131
+    },
+    "34.5 kV": {
+      "color": "#17A2B8",
+      "n": 8,
+      "km": 89.1,
+      "km_circuito": 89.1,
+      "vertices": 256
+    },
+    "≤ 13.8 kV": {
+      "color": "#7F7F7F",
+      "n": 1,
+      "km": 0.1,
+      "km_circuito": 0.1,
+      "vertices": 5
+    }
+  },
+  "top_operadores": [
+    {
+      "operador": "sin dato",
+      "km": 14485.5
+    },
+    {
+      "operador": "Enersur",
+      "km": 766.0
+    },
+    {
+      "operador": "Atlántica Transmisión Sur",
+      "km": 358.8
+    },
+    {
+      "operador": "Transmantaro",
+      "km": 108.9
+    },
+    {
+      "operador": "Electro Oriente",
+      "km": 95.3
+    },
+    {
+      "operador": "Red Electrica del Perú",
+      "km": 89.6
+    },
+    {
+      "operador": "ELSE",
+      "km": 85.4
+    },
+    {
+      "operador": "REP",
+      "km": 74.6
+    },
+    {
+      "operador": "Egesur",
+      "km": 64.3
+    },
+    {
+      "operador": "SAMAY I",
+      "km": 57.5
+    },
+    {
+      "operador": "Electrosur",
+      "km": 48.6
+    },
+    {
+      "operador": "YURA",
+      "km": 19.9
+    },
+    {
+      "operador": "Adinelsa",
+      "km": 19.6
+    },
+    {
+      "operador": "ISA CTM",
+      "km": 6.8
+    },
+    {
+      "operador": "EGASA",
+      "km": 6.4
+    }
+  ],
+  "por_fuente": {
+    "gas": {
+      "n": 17,
+      "mw": 4052.1
+    },
+    "hydro": {
+      "n": 138,
+      "mw": 3705.3
+    },
+    "oil": {
+      "n": 6,
+      "mw": 1538.9
+    },
+    "wind": {
+      "n": 6,
+      "mw": 669.6
+    },
+    "diesel;gas": {
+      "n": 1,
+      "mw": 616.0
+    },
+    "solar": {
+      "n": 19,
+      "mw": 549.9
+    },
+    "gas;oil": {
+      "n": 1,
+      "mw": 414.6
+    },
+    "diesel": {
+      "n": 3,
+      "mw": 224.0
+    },
+    "coal": {
+      "n": 2,
+      "mw": 135.0
+    },
+    "gas;gasoline": {
+      "n": 1,
+      "mw": 77.7
+    },
+    "biomass": {
+      "n": 1,
+      "mw": 4.0
+    },
+    "sin dato": {
+      "n": 13,
+      "mw": 2.0
+    }
+  },
+  "referencia_validacion": "Ver doc/VALIDACION_PERU.md (contrastar con COES/Osinergmin)"
+}

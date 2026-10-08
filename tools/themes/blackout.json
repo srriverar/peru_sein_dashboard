@@ -1,0 +1,14 @@
+{
+  "name": "Blackout",
+  "description": "High-contrast black-and-white technical poster.",
+  "bg": "#050505",
+  "text": "#FFFFFF",
+  "subtext": "#A5A5A5",
+  "boundary": "#252525",
+  "line_unknown": "#454545",
+  "line_low": "#888888",
+  "line_mid": "#D8D8D8",
+  "line_high": "#FFFFFF",
+  "line_extra": "#FFFFFF",
+  "fade": "#050505"
+}

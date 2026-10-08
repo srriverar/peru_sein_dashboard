@@ -1,0 +1,14 @@
+{
+  "name": "Paper Grid",
+  "description": "Warm gallery-print styling for dense networks.",
+  "bg": "#F4EFE6",
+  "text": "#1D1D1D",
+  "subtext": "#6B625A",
+  "boundary": "#D9CCBA",
+  "line_unknown": "#CAB99D",
+  "line_low": "#7F9A8B",
+  "line_mid": "#436F75",
+  "line_high": "#A65C2E",
+  "line_extra": "#5B2016",
+  "fade": "#F4EFE6"
+}

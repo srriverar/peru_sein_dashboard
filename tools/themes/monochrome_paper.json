@@ -1,0 +1,22 @@
+{
+  "name": "Monochrome Paper",
+  "description": "Black ink on paper. voltage tiers are encoded mainly through line width and opacity",
+  "bg": "#F4EFE6",
+  "text": "#111111",
+  "subtext": "#4F4F4F",
+  "boundary": "#E1DED8",
+  "line_unknown": "#767676",
+  "line_low": "#111111",
+  "line_mid": "#111111",
+  "line_high": "#111111",
+  "line_extra": "#111111",
+  "fade": "#FAFAF7",
+  "lw_unknown": 0.18,
+  "lw_low": 0.32,
+  "lw_mid": 0.62,
+  "lw_high": 1.05,
+  "lw_extra": 1.55,
+  "lw_minor": 0.2,
+  "cable_color": "#111111",
+  "cable_lw_scale": 0.55
+}

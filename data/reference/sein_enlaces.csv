@@ -1,0 +1,9 @@
+id,desde,hasta,tension_kv,capacidad_mw_est,corredor,fuente_nivel
+L1,N1,N2,220,400,Chiclayo/Piura-Trujillo (220 kV),ESTIMADO - verificar con COES
+L2,N2,N3,500,800,Norte-Lima (Chimbote/Huacho-Lima),ESTIMADO - verificar con COES
+L3,N3,N4,500,1400,Lima-Centro (corredor Mantaro-Chilca),ESTIMADO - verificar con COES
+L4,N4,N5,500,1400,Troncal 500 kV Mantaro-Marcona-Socabaya-Montalvo (ISA/Transmantaro),ESTIMADO - ruta y longitud: fuente ISA
+L5,N3,N5,500,1400,Chilca-Poroma 500 kV (eje longitudinal sur),ESTIMADO - ruta: COES/MINEM
+L6,N5,N6,220,400,Socabaya-Puno / Sur-Sur Oriente (220 kV),ESTIMADO - verificar con COES
+L7,N4,N7,220,250,Tingo María-Aguaytía 220 kV,ESTIMADO - verificar con COES
+L8,N2,N4,220,400,Enlace Centro-Norte (220 kV),ESTIMADO - verificar con COES

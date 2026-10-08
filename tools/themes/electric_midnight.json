@@ -1,0 +1,14 @@
+{
+  "name": "Electric Midnight",
+  "description": "Deep navy background with cool transmission glow.",
+  "bg": "#06111F",
+  "text": "#EAF4FF",
+  "subtext": "#8FB7D8",
+  "boundary": "#1D3C5A",
+  "line_unknown": "#355B7C",
+  "line_low": "#6FA4C8",
+  "line_mid": "#A7D8FF",
+  "line_high": "#F6E7A7",
+  "line_extra": "#FFFFFF",
+  "fade": "#06111F"
+}

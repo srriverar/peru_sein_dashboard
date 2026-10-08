@@ -1,0 +1,14 @@
+{
+  "name": "Prodigi Glow",
+  "description": "Glow-in-the-dark print theme: pure-white grid lines on a near-black opaque background so the electrical network charges while labels, borders and fades avoid true white.",
+  "bg": "#020407",
+  "text": "#8A949F",
+  "subtext": "#5D6875",
+  "boundary": "#0C121A",
+  "line_unknown": "#FFFFFF",
+  "line_low": "#FFFFFF",
+  "line_mid": "#FFFFFF",
+  "line_high": "#FFFFFF",
+  "line_extra": "#FFFFFF",
+  "fade": "#020407"
+}

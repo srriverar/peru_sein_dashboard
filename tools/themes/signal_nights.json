@@ -1,0 +1,14 @@
+{
+  "name": "Signal Night",
+  "description": "High-contrast dark theme with bright voltage tiers for dense transmission networks.",
+  "bg": "#020617",
+  "text": "#F8FAFC",
+  "subtext": "#CBD5E1",
+  "boundary": "#334155",
+  "line_unknown": "#64748B",
+  "line_low": "#22D3EE",
+  "line_mid": "#38BDF8",
+  "line_high": "#FACC15",
+  "line_extra": "#FFFFFF",
+  "fade": "#020617"
+}
