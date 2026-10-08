@@ -48,7 +48,10 @@ def _df(nombre: str) -> pd.DataFrame:
 
 
 def lineas_df() -> pd.DataFrame:
-    return _df("lineas_osm.geojson")
+    df = _df("lineas_osm.geojson")
+    if not df.empty:
+        df["_coords"] = df["geometry"].map(lambda g: [tuple(p) for p in g["coordinates"]])
+    return df
 
 
 def subestaciones_df() -> pd.DataFrame:
@@ -68,7 +71,7 @@ def centrales_df() -> pd.DataFrame:
 
 
 def departamentos() -> dict | None:
-    return _read("../reference/peru_departamentos.geojson") or _leer_ref("peru_departamentos.geojson")
+    return _leer_ref("peru_departamentos.geojson")
 
 
 def _leer_ref(nombre: str):

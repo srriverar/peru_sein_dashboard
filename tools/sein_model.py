@@ -64,9 +64,12 @@ def run_dispatch(
 
     # ── Demanda nodal (normalizada al pico coincidente oficial, si se indica) ──
     d_base = nodos["demanda_max_mw_est"].to_numpy(float)
+    externo = nodos["externo"].to_numpy(int) if "externo" in nodos.columns else np.zeros(n_nod, int)
+    interno = externo == 0
     if demanda_total_mw is None:
         demanda_total_mw = 7941.78  # máxima demanda SEIN 2025 (OSINERGMIN)
-    d_base = d_base / d_base.sum() * demanda_total_mw * (1 + crecimiento_demanda)
+    # Los nodos internos se reescalan al pico oficial; los externos (p.ej. Ecuador) mantienen su valor
+    d_base = np.where(interno, d_base / d_base[interno].sum() * demanda_total_mw * (1 + crecimiento_demanda), d_base)
     dem = np.outer(perfiles["demanda_pu"].to_numpy(float), d_base)  # T x N
 
     # ── Capacidades nodales por tecnología ──

@@ -1,0 +1,19 @@
+proyecto,tension_kv,longitud_km,estado,objetivo,fuente
+Bicentenario - Chilca 500 kV,500,176,Vinculante / en desarrollo,"Nuevo enlace paralelo para aliviar Poroma-Chilca (840 MVA insuficientes)",MINEM Informe 0133-2024
+Bicentenario - Colectora 500 kV,500,104,Vinculante / en desarrollo,"Eje longitudinal 500 kV sur medio",MINEM Informe 0133-2024
+Miguel Grau - Pariñas 500 kV,500,116,Proyecto (PT 2025-2034),"Refuerzo del norte y enlace hacia la frontera con Ecuador",MINEM Informe 0133-2024
+Celendín - Trujillo 500 kV,500,187,Planificado (2026),"Refuerzo del corredor norte-centro",Power Technology (2024)
+Huánuco - Paramonga 500 kV,500,220,Propuesto,"Enlace norte-centro para evacuación de generación",Power Technology (2024)
+Mantaro - Nueva Yanango - Carapongo 500 kV,500,390,En construcción,"Eje centro-Lima de 500 kV",Power Technology (2024)
+Nueva Yanango - Nueva Huánuco 500 kV,500,184,Concesión ProInversión,"Refuerzo centro-oriente",LP Capital
+La Niña - Piura 500 kV,500,87.1,Concesión,"Primer tramo de la interconexión 500 kV con Ecuador",LP Capital / Enerdata
+Mantaro - Caraveli - Montalvo 500 kV,500,761.8,Concesión ProInversión,"Corredor centro-sur de 500 kV",LP Capital
+Ocoña - San José 500 kV,500,,En planificación,"Refuerzo del sur (con transformadores 500/220 San José)",Power Technology (2024)
+Tintaya - Socabaya 220 kV,220,207,Concesión ProInversión,"Enlace sur y conexión con Puno",LP Capital
+Machu Picchu - Cotaruse 220 kV,220,204,Concesión ProInversión,"Enlace sur oriente",LP Capital
+Carhuaquero - Cajamarca Norte - Caclic - Moyobamba 220 kV,220,401.5,Concesión adjudicada,"Zona norte oriente (San Martín)",LP Capital
+Carhuamayo - Carhuaquero 220 kV,220,692,Concesión ProInversión,"Enlace centro-norte",LP Capital
+Pariñas - Nueva Tumbes 220 kV,220,158,Concesión,"Refuerzo frontera norte (Tumbes)",Enerdata 2023
+Tingo María - Aguaytía 220 kV,220,73,Concesión,"Evacuación de gas de Aguaytía",Enerdata 2023
+Paquillusi - Pumiri 220 kV,220,177.7,En desarrollo,"Conexión de San Gabán III",Global Transmission Report (2024)
+Azángaro - Juliaca - Puno 220 kV,220,114,Concesión,"Refuerzo del sur oriente / frontera con Bolivia",LP Capital

@@ -1,0 +1,7 @@
+tecnologia,categoria,costo_usd_por_milla_min,costo_usd_por_milla_max,ganancia_capacidad_pct_min,ganancia_capacidad_pct_max,tiempo_despliegue,caso_de_referencia,fuente,nota
+Dynamic Line Rating (DLR),Sensorización y software,45000,50000,10,40,3-9 meses,Oncor (EE.UU.): 6-14 % en líneas 345 kV y 8-12 % en 138 kV; Finlandia-Suecia: >=20 % durante 97 % del año,Harbinger Land (2025); CleanTechnica (2026); Forbes (2025),Costos y ganancias de divulgación técnica; validar con estudios revisados
+Ampacidad ajustada ambiental (AAR),Software,0,0,5,15,Meses,Mejora sobre rating estático en muchos corredores,CleanTechnica (2026),Basado en estudios de Norteamérica y Europa
+Reconductoring HTLS,Repotenciación de conductores,300000,1000000,50,110,18-36 meses,Conductores de alta temperatura y baja flecha en torres existentes,Energy Solutions (2026); Green Fuel Journal (2026),Requiere salida de línea durante la obra
+Línea nueva 500 kV,Obra nueva,1500000,6500000,100,100,7-15 años,Corredor nuevo (aditivo),Energy Solutions (2026),Incluye permisos y ambiental
+Control avanzado de flujo (FACTS / PST / compensación serie),Electrónica de potencia,,,5,20,6-24 meses,Control de flujo entre rutas paralelas,Literatura técnica general,Valor depende de la topología; rango orientativo
+Re-despacho topológico / optimización de topología,Operación,,,5,20,Semanas,Reconfiguración de la red en operación,Literatura técnica general,Rango orientativo; requiere modelo de red

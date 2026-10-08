@@ -12,13 +12,19 @@ Adaptado a partir del *Dashboard SIN Nodal* (Colombia), manteniendo su arquitect
 | # | Página | Contenido |
 |---|---|---|
 | 1 | 🏠 Inicio | Indicadores oficiales 2025-2026, matriz, resultado rápido del modelo |
-| 2 | 🗺️ Mapa del SEIN | Red OSM (500/220 kV, subestaciones, centrales) o red nodal; límites departamentales |
+| 2 | 🗺️ Mapa del SEIN (con enlaces Google Maps/Earth) | Red OSM (500/220 kV, subestaciones, centrales) o red nodal; límites departamentales |
 | 3 | ⚡ Arquitectura | Capacidad por nodo y tecnología, balance por zona, cartera COES |
 | 4 | 🔴 Congestión y GET | Despacho horario 24 h, LMP nodales, horas de congestión, valor de GET/DLR |
 | 5 | 🌊 ENSO e hidrología | Índice ONI, efecto simulado de El Niño / La Niña sobre precios y congestión |
 | 6 | 🗄️ Datos Perú | Catálogo de fuentes oficiales y abiertas, filtrable y descargable |
 | 7 | 📋 Política y regulación | Marco normativo y preguntas de política para el estudio |
-| 8 | 🤝 Colaboración | Plantillas de datos, prioridades abiertas, cómo contribuir, licencias |
+| 8 | 🔥 Congestión documentada | Restricciones reportadas por COES/EPO cruzadas con el modelo |
+| 9 | 🌎 Interconexiones internacionales | Ecuador (existente y proyectado), Chile, Bolivia, Colombia; simulación Perú–Ecuador |
+| 10 | 🧩 DLR y GET | Comparativo de costos/ganancias y calculadora de valor por corredor |
+| 11 | 🧭 Red OSM, MapYourGrid y póster | Cobertura OSM frente a referencias y póster Grid2Poster de Perú |
+| 12 | 🌍 Perú en el mundo | Contexto internacional: mix, red de transmisión, potencial renovable |
+| 13 | 💼 Propuesta IDOM | Paquetes de trabajo, perfil del experto y preguntas de arranque |
+| 14 | 🤝 Colaboración | Plantillas de datos, prioridades abiertas, cómo contribuir, licencias |
 
 ## 🚀 Ejecución local
 
@@ -47,6 +53,8 @@ python3 tools/build_osm_snapshot.py
 | `data/reference/sein_tecnologia_2026.csv` | Capacidad instalada por tecnología (jul-2026) | Oficial (vía prensa especializada) |
 | `data/reference/oni_noaa.csv` | Índice ONI mensual (NOAA/CPC) | Oficial |
 | `data/geo/*.geojson` | Snapshot OpenStreetMap (ODbL) | Generado por `build_osm_snapshot.py` |
+| `data/reference/peru_*.csv`, `dlr_get_tecnologias.csv` | Interconexiones, congestiones, proyectos, GET y contexto | Con fuente en cada fila |
+| `data/posters/*.png` | Póster Grid2Poster | Generado por `tools/grid2poster_peru.py` |
 
 Todas las cifras con estado *Estimado* se marcan en la app. Consulte `doc/VALIDACION_PERU.md`.
 
